@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void lalala(View v){
+    public void lala2343(View v){
         Toast.makeText(this,"LALALAL", Toast.LENGTH_SHORT).show();
     }
 }
