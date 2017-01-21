@@ -17,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,"asdasdasdasdasdasdasdL", Toast.LENGTH_SHORT).show();
     }
     public void lala2(){
-    	//
+    	System.out.println("HOLI");
     }
 }
