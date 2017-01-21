@@ -16,4 +16,7 @@ public class MainActivity extends AppCompatActivity {
     public void lala565y56543(View v){
         Toast.makeText(this,"LALALAL", Toast.LENGTH_SHORT).show();
     }
+    public void lala2(){
+    	
+    }
 }
