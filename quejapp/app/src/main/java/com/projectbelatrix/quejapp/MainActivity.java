@@ -1,5 +1,6 @@
 package com.projectbelatrix.quejapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,10 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void lala565y56543(View v){
-        Toast.makeText(this,"asdasdasdasdasdasdasdL", Toast.LENGTH_SHORT).show();
-    }
-    public void lala2(){
-    	System.out.println("HOLI");
+    public void launchTabgActivity(View v) {
+        Intent i = new Intent(this, TabsActivity.class);
+        startActivity(i);
     }
 }
